@@ -50,7 +50,7 @@
 📧 **Email:** [gildor@ro.ru](mailto:gildor@ro.ru)  
 💬 **Telegram:** [@lightpal](https://t.me/lightpal)  
 🌐 **VK:** [https://vk.com/thunderj](https://vk.com/thunderj)  
-📁 **Портфолио:** https://здесьбудетпортфолио.ru
+📁 **Портфолио:** https://github.com/thunderj77
 
 ---
 
