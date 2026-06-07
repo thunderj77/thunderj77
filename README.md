@@ -13,12 +13,54 @@
 В Движении Первых я внедрил data‑driven подход: очистил базу участников, настроил дашборды, когортный анализ и метрики удержания. Результат: выполнение KPI по охвату выросло с 65% до 88%, удержание – на 18%.
 
 Из 14 реализованных проектов ключевые:
-- прогнозирование оттока клиентов (точность 86%);
-- A/B‑тест рекомендательной системы (рост CTR на 12%);
-- сегментация аудитории онлайн‑игры (Retention +8 п.п.);
-- дашборды в Looker Studio и DataLens.
+- ETL + ML-модель на PySpark (точность 86%);
+- A/B‑тесты с приростом конверсии до +609% (TikTok vs другие каналы);
+- дашборды в DataLens и Looker Studio;
+- когортный анализ и юнит‑экономику (LTV, CAC, ROI).
 
 Умею не только находить закономерности, но и доносить выводы до бизнеса понятным языком.
+
+---
+
+## 🏆 Портфолио
+
+📁 **[Все мои проекты → github.com/thunderj77/MyProjects](https://github.com/thunderj77/MyProjects/)**
+
+### Ключевые проекты:
+
+#### 🚖 Прогнозирование оттока клиентов Яндекс Такси
+🔗 [github.com/thunderj77/MyProjects-churn-prediction](https://github.com/thunderj77/MyProjects-churn-prediction)
+
+**Стек:** `PySpark` • `Spark MLlib` • `Airflow` • `ClickHouse` • `Yandex Cloud`
+
+**Результат:** ETL + ML (Random Forest) с точностью **86.2%** на **1 млн поездок**
+
+---
+
+#### 📈 A/B-тест каналов привлечения: TikTok vs другие
+🔗 [github.com/thunderj77/MyProjects-marketplace-user-conversion-ab-test](https://github.com/thunderj77/MyProjects-marketplace-user-conversion-ab-test)
+
+**Стек:** `Pandas` • `SciPy` • `Statsmodels` • `Plotly` • `юнит-экономика`
+
+**Результат:** Конверсия **1.06% → 7.51%** → **+609%** (p < 0.0001). Когорты, LTV/CAC/ROI, RFM
+
+---
+
+#### 💳 A/B-тест онбординга в финтех-приложении
+🔗 [github.com/thunderj77/MyProjects-ab-test-onboarding](https://github.com/thunderj77/MyProjects-ab-test-onboarding)
+
+**Стек:** `Python` • `бутстрап` • `перцентили` • `сегментация по рискам`
+
+**Результат:** В **high-risk сегменте** конверсия во второй депозит выросла на **+18.3 п.п.** (p < 0.001)
+
+---
+
+#### 🍽️ Дашборд для сервиса доставки «Всё.из.кафе»
+🔗 [github.com/thunderj77/MyProjects-dashboard-cafe-metrics](https://github.com/thunderj77/MyProjects-dashboard-cafe-metrics)
+
+**Стек:** `SQL (PostgreSQL)` • `Yandex DataLens` • `когортный анализ`
+
+**Результат:** DAU, CR, Retention, LTV ресторанов. Выявлены точки спада активности, даны рекомендации
 
 ---
 
@@ -38,7 +80,7 @@
 `PySpark` • `Apache Airflow` • `Jupyter Notebook` • `S3`
 
 **Остальное**  
-`MS Excel` / `Google Sheets` • `MS Access` • промпт‑инжиниринг • управление проектами
+`MS Excel` / `Google Sheets` • промпт‑инжиниринг • управление проектами
 
 > Указываю только то, что готов подтвердить на собеседовании.
 
